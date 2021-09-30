@@ -14,7 +14,7 @@
 	<name>spring-admin-server</name>
 	<description>Spring application admin server</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 		<kotlin.version>1.6.0-M1</kotlin.version>
 	</properties>
 	<dependencies>
@@ -47,11 +47,6 @@
 			<version>${kotlin.version}</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.jetbrains.kotlin</groupId>
-			<artifactId>kotlin-stdlib-jdk8</artifactId>
-			<version>${kotlin.version}</version>
-		</dependency>
 	</dependencies>
 
 	<build>
@@ -81,7 +76,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<jvmTarget>11</jvmTarget>
+					<jvmTarget>1.8</jvmTarget>
 				</configuration>
 			</plugin>
 			<plugin>
