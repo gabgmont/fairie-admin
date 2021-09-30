@@ -1,0 +1,12 @@
+server:
+  port: 9090
+
+credentials:
+  admin:
+    username: admin
+    password: 1qaz2wsx
+    authority: ADMIN
+  client:
+    username: client
+    password: client123
+    authority: CLIENT
